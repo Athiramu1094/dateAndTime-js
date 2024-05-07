@@ -16,29 +16,41 @@ body{
     font-family:   "Ubuntu Sans Mono", monospace;
 }
 
-.image-container{
-    position: relative;
-}
-
 #mytime{
-    font-size: 3rem;
-    position: absolute;
-    top: 450px;
-    left: 650px;
+    font-size: 5rem;
    
 }
 
 #mydate{
-    position: absolute;
-    top: 400px;
-    left: 710px;
-    font-size: 1rem;
-   
-   
+    font-size: rem;
+    text-align: center;
 }
 
+
 #image{
-    height: 100%;
-    width: 100%;
-    object-fit: fill;
+    display: none;
+}
+
+
+@media (min-width: 1289px) {
+    #mytime{
+        font-size: 3rem;
+        position: absolute;
+        top: 350px;
+        left: 650px;
+       
+    }
+    
+    #mydate{
+        position: absolute;
+        top: 300px;
+        left: 710px;
+        font-size: 1rem;
+       }
+       #image{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+    }
 }
