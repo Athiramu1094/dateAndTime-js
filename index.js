@@ -23,6 +23,14 @@ console.log(minutes)
 let seconds = currentDate.getSeconds()
 console.log(seconds)
 
+if (minutes < 10) {
+    minutes = '0' + minutes;
+}
+
+    if (seconds < 10) {
+        seconds = '0' + seconds;
+    }    
+
 console.log(todaysDate, monthName, year)
 myDate.innerHTML = (`${todaysDate}-${monthName}-${year}`)
 
