@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    text-shadow: 0 0 5px #00ffff;
+    font-family:   "Ubuntu Sans Mono", monospace;
+}
+
+.image-container{
+    position: relative;
+}
+
+#mytime{
+    font-size: 3rem;
+    position: absolute;
+    top: 450px;
+    left: 650px;
+   
+}
+
+#mydate{
+    position: absolute;
+    top: 400px;
+    left: 710px;
+    font-size: 1rem;
+   
+   
+}
+
+#image{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
